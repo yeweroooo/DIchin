@@ -1,0 +1,625 @@
+request url : https://dramabox.sansekai.my.id/api/dramabox/latest
+metode : get 
+
+request header :
+Accept	text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding	gzip, deflate, br, zstd
+Accept-Language	en-US,en;q=0.5
+Connection	keep-alive
+Host	dramabox.sansekai.my.id
+If-None-Match	W/"3713-o3UXZmnOiO4GQyEn60lrC+DTGRw"
+Priority	u=0, i
+Sec-Fetch-Dest	document
+Sec-Fetch-Mode	navigate
+Sec-Fetch-Site	none
+Sec-Fetch-User	?1
+Upgrade-Insecure-Requests	1
+User-Agent	Mozilla/5.0 (X11; Linux x86_64; rv:146.0) Gecko/20100101 Firefox/146.0
+
+
+[
+  {
+    "bookId": "42000001283",
+    "bookName": "Takdir yang Direbut Kembali",
+    "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000001283/42000001283.jpg?t=1765443106915",
+    "chapterCount": 80,
+    "introduction": "Di kehidupan sebelumnya, Nura Galih dipaksa menjadi selir suami kakaknya yang sedang mengandung, namun ia kehilangan nyawa saat kakaknya melahirkan. Di kehidupan kedua, Nura melangkah hati-hati, berhasil meluluhkan hati Juno Malik yang berkuasa, dan menjadi istri sahnya. Dia merebut kembali kedudukan sebagai putri sah, menyingkirkan semua lawan, hingga orang-orang yang kejam hanya bisa menjerit putus asa.",
+    "tags": [
+      "Balas Dendam",
+      "Terlahir Kembali",
+      "Salah Identitas",
+      "Serangan Balik",
+      "Intrik Istana",
+      "Kekuatan khusus"
+    ],
+    "tagV3s": [
+      {
+        "tagId": 1394,
+        "tagName": "Balas Dendam",
+        "tagEnName": "Revenge"
+      },
+      {
+        "tagId": 1405,
+        "tagName": "Terlahir Kembali",
+        "tagEnName": "Rebirth"
+      },
+      {
+        "tagId": 1403,
+        "tagName": "Salah Identitas",
+        "tagEnName": "Mistaken Identity"
+      },
+      {
+        "tagId": 1399,
+        "tagName": "Serangan Balik",
+        "tagEnName": "Counterattack"
+      },
+      {
+        "tagId": 1410,
+        "tagName": "Intrik Istana",
+        "tagEnName": "Palace Intrigue"
+      },
+      {
+        "tagId": 1371,
+        "tagName": "Kekuatan khusus",
+        "tagEnName": "The Chosen One"
+      }
+    ],
+    "isEntry": 0,
+    "index": 0,
+    "protagonist": "Nura Galih,  Juno Malik",
+    "dataFrom": "大数据",
+    "cardType": 1,
+    "rankVo": {
+      "rankType": 3,
+      "hotCode": "243K",
+      "sort": 1
+    },
+    "markNamesConnectKey": ", ",
+    "bookShelfTime": 1765591200000,
+    "shelfTime": "2025-12-13 13:30:24",
+    "inLibrary": false
+  },
+  {
+    "bookId": "42000001143",
+    "bookName": "Istriku, Aku Memang Dewa ",
+    "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000001143/42000001143.jpg?t=1765266657526",
+    "chapterCount": 88,
+    "introduction": "Celia Sandi mengira telah menipu suaminya, Feri Lianto, agar pergi ke gunung demi melindunginya dari bencana. Namun, Feri ternyata pergi untuk mewarisi ilmu dari Dewa Tua. Lima tahun kemudian, Feri kembali sebagai seorang Dewa. Setelah menjadi murid Dewa Perang, ia menghadapi berbagai ujian. Dari video viral hingga keluarga kaya yang datang untuk membatalkan pertunangan, ia menunjukkan bahwa kekuatan sejatinya jauh melampaui yang pernah mereka bayangkan.",
+    "tags": [
+      "Serangan Balik",
+      "Fantasi",
+      "Modern",
+      "Pria Dominan",
+      "Menantu Pria"
+    ],
+    "tagV3s": [
+      {
+        "tagId": 1340,
+        "tagName": "Serangan Balik",
+        "tagEnName": "Counterattack"
+      },
+      {
+        "tagId": 1321,
+        "tagName": "Fantasi",
+        "tagEnName": "Fantasy"
+      },
+      {
+        "tagId": 1318,
+        "tagName": "Modern",
+        "tagEnName": "Modern"
+      },
+      {
+        "tagId": 1323,
+        "tagName": "Pria Dominan",
+        "tagEnName": "Powerful Male Lead"
+      },
+      {
+        "tagId": 1329,
+        "tagName": "Menantu Pria",
+        "tagEnName": "Son-in-Law"
+      }
+    ],
+    "isEntry": 0,
+    "index": 0,
+    "protagonist": "Celia Sandi,  Feri Lianto",
+    "dataFrom": "大数据",
+    "cardType": 1,
+    "rankVo": {
+      "rankType": 3,
+      "hotCode": "30.8K",
+      "sort": 2
+    },
+    "markNamesConnectKey": ", ",
+    "bookShelfTime": 1765337393000,
+    "shelfTime": "2025-12-10 11:29:53",
+    "inLibrary": false
+  },
+  {
+    "bookId": "42000001113",
+    "bookName": "Digantikan, Lalu Menikah Mendadak",
+    "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000001113/42000001113.jpg?t=1765245452446",
+    "chapterCount": 62,
+    "introduction": "Jena Nantara, sejak kecil kehilangan orang tuanya, dibesarkan oleh tiga kakaknya. Pada ulang tahunnya yang ke-18, ia seharusnya bertunangan dengan salah satu dari mereka, namun Syana Nantara, putri kandung keluarga yang lama hilang, tiba-tiba kembali. Jena dijauhi oleh ketiga kakaknya. Hancur hati, ia menikah dengan Herald Hayora, pewaris Grup Hayora. Setelah menyesal, ketiga kakaknya berusaha membawa Jena pulang, tapi Jena sudah bersama Herald dan tak menoleh lagi.",
+    "tags": [
+      "Cinta Setelah Menikah",
+      "Penyesalan",
+      "Intrik Keluarga",
+      "Wanita Mandiri",
+      "Modern",
+      "Romansa"
+    ],
+    "tagV3s": [
+      {
+        "tagId": 1393,
+        "tagName": "Cinta Setelah Menikah",
+        "tagEnName": "Love After Marriage"
+      },
+      {
+        "tagId": 1654,
+        "tagName": "Penyesalan",
+        "tagEnName": "All-Too-Late"
+      },
+      {
+        "tagId": 1411,
+        "tagName": "Intrik Keluarga",
+        "tagEnName": "Family Intrigue"
+      },
+      {
+        "tagId": 1452,
+        "tagName": "Wanita Mandiri",
+        "tagEnName": "Independent Woman"
+      },
+      {
+        "tagId": 1352,
+        "tagName": "Modern",
+        "tagEnName": "Modern"
+      },
+      {
+        "tagId": 1357,
+        "tagName": "Romansa",
+        "tagEnName": "Romance"
+      }
+    ],
+    "isEntry": 0,
+    "index": 0,
+    "protagonist": "Jena Nantara,  Herald Hayora",
+    "dataFrom": "大数据",
+    "cardType": 1,
+    "rankVo": {
+      "rankType": 3,
+      "hotCode": "17.9K",
+      "sort": 3
+    },
+    "markNamesConnectKey": ", ",
+    "bookShelfTime": 1765339200000,
+    "shelfTime": "2025-12-10 12:00:00",
+    "inLibrary": false
+  },
+  {
+    "bookId": "42000001110",
+    "bookName": "Terikat Darah: Kekasih Sang Raja Mafia",
+    "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000001110/42000001110.jpg?t=1765188169500",
+    "chapterCount": 56,
+    "introduction": "Lily yang dijual ibu tirinya ke sebuah lelang perawan, ditolong Salvatore, seorang bos mafia yang dulu pernah diselamatkan Lily dengan transfusi darahnya yang langka. Demi menjaga Lily yang tipe darahnya sama, Salvatore mengadakan perjanjian dengan Lily dan memicu kecemburuan Bianca yang menganggap Salvatore tunangannya. Saat hubungan Lily dan Salvatore semakin erat, aksi Bianca pun semakin nekat dan membahayakan jiwa…",
+    "tags": [
+      "Mafia",
+      "Cinta Segitiga",
+      "Gadis Naif",
+      "Takdir Cinta",
+      "Modern",
+      "Romansa"
+    ],
+    "tagV3s": [
+      {
+        "tagId": 1364,
+        "tagName": "Mafia",
+        "tagEnName": "Mafia"
+      },
+      {
+        "tagId": 1380,
+        "tagName": "Cinta Segitiga",
+        "tagEnName": "Love Triangle"
+      },
+      {
+        "tagId": 1374,
+        "tagName": "Gadis Naif",
+        "tagEnName": "Innocent Damsel"
+      },
+      {
+        "tagId": 1382,
+        "tagName": "Takdir Cinta",
+        "tagEnName": "Destined Love"
+      },
+      {
+        "tagId": 1352,
+        "tagName": "Modern",
+        "tagEnName": "Modern"
+      },
+      {
+        "tagId": 1357,
+        "tagName": "Romansa",
+        "tagEnName": "Romance"
+      }
+    ],
+    "isEntry": 0,
+    "index": 0,
+    "protagonist": "Salvatore Mancini,  Lily Hart",
+    "dataFrom": "大数据",
+    "cardType": 1,
+    "rankVo": {
+      "rankType": 3,
+      "hotCode": "17K",
+      "sort": 4
+    },
+    "markNamesConnectKey": ", ",
+    "bookShelfTime": 1765190355000,
+    "shelfTime": "2025-12-08 18:39:15",
+    "inLibrary": false
+  },
+  {
+    "bookId": "42000001136",
+    "bookName": "Pulang Sebagai Orang Kaya Baru",
+    "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000001136/42000001136.jpg?t=1765258783278",
+    "chapterCount": 69,
+    "introduction": "Setelah 20 tahun terpisah, Ivan Lionel menemukan orang tuanya, namun kini ia sudah menjadi CEO Grup Jayadi. Untuk menguji sifat mereka, ia menyamar sebagai pengantar makanan. Ternyata, orang tuanya lebih perhatian tanpa meremehkan identitasnya. Saat hendak mengungkapkan diri, pamannya mengundang mereka ke pesta pernikahan sepupunya. Merasa ada yang mencurigakan, Ivan memutuskan tetap menyamar dan membantu orang tuanya menguji sifat keluarga pamannya.",
+    "tags": [
+      "Pembalikan Identitas",
+      "Anak Hilang",
+      "CEO",
+      "Modern",
+      "Pria Dominan",
+      "Keluarga"
+    ],
+    "tagV3s": [
+      {
+        "tagId": 1338,
+        "tagName": "Pembalikan Identitas",
+        "tagEnName": "Hidden Identity"
+      },
+      {
+        "tagId": 1476,
+        "tagName": "Anak Hilang",
+        "tagEnName": "Lost Child"
+      },
+      {
+        "tagId": 1324,
+        "tagName": "CEO",
+        "tagEnName": "Billionaire"
+      },
+      {
+        "tagId": 1318,
+        "tagName": "Modern",
+        "tagEnName": "Modern"
+      },
+      {
+        "tagId": 1323,
+        "tagName": "Pria Dominan",
+        "tagEnName": "Powerful Male Lead"
+      },
+      {
+        "tagId": 1348,
+        "tagName": "Keluarga",
+        "tagEnName": "Family Bonds"
+      }
+    ],
+    "isEntry": 0,
+    "index": 0,
+    "protagonist": "Ivan Lionel",
+    "dataFrom": "大数据",
+    "cardType": 1,
+    "rankVo": {
+      "rankType": 3,
+      "hotCode": "14.2K",
+      "sort": 5
+    },
+    "markNamesConnectKey": ", ",
+    "bookShelfTime": 1765266058000,
+    "shelfTime": "2025-12-09 15:40:58",
+    "inLibrary": false
+  },
+  {
+    "bookId": "42000000826",
+    "bookName": "Dewi Penyelamat",
+    "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000826/42000000826.jpg?t=1764559147534",
+    "chapterCount": 66,
+    "introduction": "Yuswa Larasati adalah makhluk abadi yang telah menyaksikan segala kebaikan dan keburukan dunia. Awalnya ingin hidup damai, ia diminta membantu Keluarga Tirta yang tertimpa bencana. Karena ikatan karma, Yuswa tinggal setahun di sana mengorbankan diri untuk menyelamatkan mereka. Namun, demi menjilat keluarga berkuasa, Keluarga Tirta mengabaikan peringatan, menuduh Yuswa penipu, dan menentangnya. Akhirnya, mereka menuai akibat dari tindakan mereka dan dikutuk langit dan bumi.",
+    "tags": [
+      "Pembalikan Identitas",
+      "Serangan Balik",
+      "Perselingkuhan",
+      "Penebusan",
+      "Kekuatan khusus",
+      "Supranatural"
+    ],
+    "tagV3s": [
+      {
+        "tagId": 1395,
+        "tagName": "Pembalikan Identitas",
+        "tagEnName": "Hidden Identity"
+      },
+      {
+        "tagId": 1399,
+        "tagName": "Serangan Balik",
+        "tagEnName": "Counterattack"
+      },
+      {
+        "tagId": 1400,
+        "tagName": "Perselingkuhan",
+        "tagEnName": "Betrayal"
+      },
+      {
+        "tagId": 1459,
+        "tagName": "Penebusan",
+        "tagEnName": "Redemption"
+      },
+      {
+        "tagId": 1371,
+        "tagName": "Kekuatan khusus",
+        "tagEnName": "The Chosen One"
+      },
+      {
+        "tagId": 1356,
+        "tagName": "Supranatural",
+        "tagEnName": "Supernatural"
+      }
+    ],
+    "isEntry": 0,
+    "index": 0,
+    "protagonist": "Yuswa Larasati",
+    "dataFrom": "大数据",
+    "cardType": 1,
+    "rankVo": {
+      "rankType": 3,
+      "hotCode": "9.4K",
+      "sort": 6
+    },
+    "markNamesConnectKey": ", ",
+    "bookShelfTime": 1765184401000,
+    "shelfTime": "2025-12-08 17:00:01",
+    "inLibrary": false
+  },
+  {
+    "bookId": "42000001330",
+    "bookName": "Reinkarnasi Pilot Jagoan (Sulih Suara)",
+    "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000001330/42000001330.jpg?t=1765510719398",
+    "chapterCount": 58,
+    "introduction": "Theo, pilot jagoan di kehidupan sebelumnya, kembali ke usia delapan tahun, hari saat dia naik pesawat bersama ayahnya. Dia tahu pesawat itu akan jatuh dan menewaskan semua orang. Dengan tubuh kecilnya, dia harus mencegah tragedi, menyelamatkan ayah dan ratusan penumpang, meski peluang hidup hanya satu persen.",
+    "tags": [
+      "Terlahir Kembali",
+      "Pilot",
+      "Penebusan",
+      "Kekuatan Khusus",
+      "Modern",
+      "Pria Dominan"
+    ],
+    "tagV3s": [
+      {
+        "tagId": 1345,
+        "tagName": "Terlahir Kembali",
+        "tagEnName": "Rebirth"
+      },
+      {
+        "tagId": 1472,
+        "tagName": "Pilot",
+        "tagEnName": "Pilot"
+      },
+      {
+        "tagId": 1478,
+        "tagName": "Penebusan",
+        "tagEnName": "Redemption"
+      },
+      {
+        "tagId": 1334,
+        "tagName": "Kekuatan Khusus",
+        "tagEnName": "The Chosen One"
+      },
+      {
+        "tagId": 1318,
+        "tagName": "Modern",
+        "tagEnName": "Modern"
+      },
+      {
+        "tagId": 1323,
+        "tagName": "Pria Dominan",
+        "tagEnName": "Powerful Male Lead"
+      }
+    ],
+    "isEntry": 0,
+    "index": 0,
+    "protagonist": "Theo Zaki",
+    "dataFrom": "大数据",
+    "cardType": 1,
+    "rankVo": {
+      "rankType": 3,
+      "hotCode": "8K",
+      "sort": 7
+    },
+    "markNamesConnectKey": ", ",
+    "bookShelfTime": 1765520368000,
+    "shelfTime": "2025-12-12 14:19:28",
+    "inLibrary": false
+  },
+  {
+    "bookId": "42000000824",
+    "bookName": "Bisikan Sang Bayi",
+    "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000824/42000000824.jpg?t=1764558890390",
+    "chapterCount": 62,
+    "introduction": "Fiona adalah gadis desa yang sederhana. Saat magang di hotel, ia bertemu dengan Evan, pemuda kaya yang terpengaruh obat perangsang. Mereka menghabiskan malam bersama, dan Fiona hamil. Meski awalnya terdesak sahabatnya Vivi untuk aborsi, Fiona mendengar suara bayinya dan memutuskan mengubah takdir. Ia bertekad memberi kehidupan yang layak bagi anaknya, berubah menjadi wanita kaya dan cantik, serta hidup bahagia bersama suami dan anaknya.",
+    "tags": [
+      "Bayi Lucu",
+      "Terlahir Kembali",
+      "Kabur Saat Hamil",
+      "Kembali Bangkit",
+      "CEO",
+      "Takdir Cinta"
+    ],
+    "tagV3s": [
+      {
+        "tagId": 1460,
+        "tagName": "Bayi Lucu",
+        "tagEnName": "Genius Babies"
+      },
+      {
+        "tagId": 1405,
+        "tagName": "Terlahir Kembali",
+        "tagEnName": "Rebirth"
+      },
+      {
+        "tagId": 1397,
+        "tagName": "Kabur Saat Hamil",
+        "tagEnName": "Secret Baby"
+      },
+      {
+        "tagId": 10000,
+        "tagName": "Kembali Bangkit",
+        "tagEnName": "Comeback Story"
+      },
+      {
+        "tagId": 1362,
+        "tagName": "CEO",
+        "tagEnName": "Billionaire"
+      },
+      {
+        "tagId": 1382,
+        "tagName": "Takdir Cinta",
+        "tagEnName": "Destined Love"
+      }
+    ],
+    "isEntry": 0,
+    "index": 0,
+    "protagonist": "Fiona Salim,  Evan Gunarso",
+    "dataFrom": "大数据",
+    "cardType": 1,
+    "rankVo": {
+      "rankType": 3,
+      "hotCode": "7.7K",
+      "sort": 8
+    },
+    "markNamesConnectKey": ", ",
+    "bookShelfTime": 1765184400000,
+    "shelfTime": "2025-12-08 17:00:00",
+    "inLibrary": false
+  },
+  {
+    "bookId": "42000001340",
+    "bookName": "Cintaku Gagal Membuatmu Hangat (Sulih Suara) ",
+    "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000001340/42000001340.jpg?t=1765518703932",
+    "chapterCount": 82,
+    "introduction": "Menikah tujuh tahun, suami Rania selalu dingin seperti es. Di hari ulang tahunnya, dia terbang ke luar negeri mencari suami dan putrinya, tetapi dia menemukan bahwa suaminya yang tidak mengingat hari ulang tahunnya, malah membawa putrinya merayakan ulang tahun wanita lain. Suaminya yang dingin dan jauh kepada semua orang, justru tersenyum hanya kepada wanita itu. Bahkan putri Rania ingin menganggap wanita itu sebagai ibunya. Rania akhirnya benar-benar menyerah.",
+    "tags": [
+      "Penyesalan",
+      "Cinta Retak",
+      "Perselingkuhan",
+      "Mengejar Istri",
+      "Cinta Segitiga",
+      "Modern"
+    ],
+    "tagV3s": [
+      {
+        "tagId": 1654,
+        "tagName": "Penyesalan",
+        "tagEnName": "All-Too-Late"
+      },
+      {
+        "tagId": 1636,
+        "tagName": "Cinta Retak",
+        "tagEnName": "Love After Divorce"
+      },
+      {
+        "tagId": 1400,
+        "tagName": "Perselingkuhan",
+        "tagEnName": "Betrayal"
+      },
+      {
+        "tagId": 1401,
+        "tagName": "Mengejar Istri",
+        "tagEnName": "Winning Her Back"
+      },
+      {
+        "tagId": 1380,
+        "tagName": "Cinta Segitiga",
+        "tagEnName": "Love Triangle"
+      },
+      {
+        "tagId": 1352,
+        "tagName": "Modern",
+        "tagEnName": "Modern"
+      }
+    ],
+    "isEntry": 0,
+    "index": 0,
+    "protagonist": "Rania Astha,  Darren Mahendra",
+    "dataFrom": "大数据",
+    "cardType": 1,
+    "rankVo": {
+      "rankType": 3,
+      "hotCode": "7.3K",
+      "sort": 9
+    },
+    "markNamesConnectKey": ", ",
+    "bookShelfTime": 1765528013000,
+    "shelfTime": "2025-12-12 16:26:53",
+    "inLibrary": false
+  },
+  {
+    "bookId": "42000000825",
+    "bookName": "Cinta yang Kembali Menemukanku",
+    "coverWap": "https://hwztchapter.dramaboxdb.com/data/cppartner/4x2/42x0/420x0/42000000825/42000000825.jpg?t=1764559138209",
+    "chapterCount": 64,
+    "introduction": "Di kehidupan sebelumnya, Nayra, mahasiswi Universitas Madi, tertipu tunangannya, Teo, yang bersekongkol dengan keluarganya untuk merebut hartanya. Mereka membunuh Nayra dan merekayasa kematiannya. Jiwanya terperangkap dalam dendam hingga Gian, jenderal berhati kelam yang pernah memaksanya mencintai, datang membantai pelaku dan memilih mati bersamanya. Nayra sadar bahwa Gian mencintainya tulus. Ia bersumpah, jika diberi kehidupan baru, hanya Gian yang akan dipilih.",
+    "tags": [
+      "Balas Dendam",
+      "Terlahir Kembali",
+      "Takdir Cinta",
+      "Fantasi",
+      "Romansa",
+      "BG"
+    ],
+    "tagV3s": [
+      {
+        "tagId": 1394,
+        "tagName": "Balas Dendam",
+        "tagEnName": "Revenge"
+      },
+      {
+        "tagId": 1405,
+        "tagName": "Terlahir Kembali",
+        "tagEnName": "Rebirth"
+      },
+      {
+        "tagId": 1382,
+        "tagName": "Takdir Cinta",
+        "tagEnName": "Destined Love"
+      },
+      {
+        "tagId": 1355,
+        "tagName": "Fantasi",
+        "tagEnName": "Fantasy"
+      },
+      {
+        "tagId": 1357,
+        "tagName": "Romansa",
+        "tagEnName": "Romance"
+      },
+      {
+        "tagId": 1358,
+        "tagName": "BG",
+        "tagEnName": "BG"
+      }
+    ],
+    "isEntry": 0,
+    "index": 0,
+    "protagonist": " Nayra Seta,  Gian Nata",
+    "dataFrom": "大数据",
+    "cardType": 1,
+    "rankVo": {
+      "rankType": 3,
+      "hotCode": "4.2K",
+      "sort": 10
+    },
+    "markNamesConnectKey": ", ",
+    "bookShelfTime": 1765184400000,
+    "shelfTime": "2025-12-08 17:00:00",
+    "inLibrary": false
+  }
+]
