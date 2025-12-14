@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"dichin-backend/pkg/httpclient"
+	"dichin-backend/backend/pkg/httpclient"
 
 	"github.com/gin-gonic/gin"
 )

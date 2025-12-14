@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"dichin-backend/pkg/httpclient"
+	"dichin-backend/backend/pkg/httpclient"
 	"fmt"
 	"net/http"
 	"net/url"

@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"sync"
 
-	"dichin-backend/pkg/httpclient"
+	"dichin-backend/backend/pkg/httpclient"
 
 	"github.com/gin-gonic/gin"
 )
