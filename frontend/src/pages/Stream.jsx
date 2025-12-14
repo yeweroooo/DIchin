@@ -15,7 +15,7 @@ const Stream = () => {
     const [loading, setLoading] = useState(true);
     const [videoUrl, setVideoUrl] = useState('');
 
-    // Fetch episodes if missing
+
     useEffect(() => {
         if (episodes.length === 0) {
             const fetchData = async () => {
@@ -36,7 +36,7 @@ const Stream = () => {
         }
     }, [bookId]);
 
-    // Update video URL
+
     useEffect(() => {
         if (episodes.length > 0 && currentChapterIndex >= 0 && currentChapterIndex < episodes.length) {
             const currentEp = episodes[currentChapterIndex];
@@ -79,7 +79,7 @@ const Stream = () => {
 
             <div className="flex-1 flex flex-col lg:flex-row pt-20 container mx-auto px-4 lg:px-8 gap-6 pb-10">
 
-                {/* Main Player Area */}
+                {}
                 <div className="flex-1 w-full md:max-w-none max-w-sm mx-auto">
                     <div className="relative aspect-[9/16] md:aspect-video bg-black rounded-3xl overflow-hidden shadow-2xl border border-white/10 ring-1 ring-white/5">
                         {loading ? (
@@ -125,7 +125,7 @@ const Stream = () => {
                     </div>
                 </div>
 
-                {/* Sidebar / Playlist */}
+                {}
                 <div className="w-full lg:w-96 bg-surface rounded-xl border border-white/5 p-4 flex flex-col h-[500px] lg:h-auto">
                     <div className="flex items-center justify-between mb-4 pb-4 border-b border-white/5">
                         <h3 className="font-bold text-lg flex items-center"><List className="w-5 h-5 mr-2 text-primary" /> Episodes</h3>
@@ -143,7 +143,7 @@ const Stream = () => {
                                 className={`w-full flex items-center p-3 rounded-lg transition-all ${currentChapterIndex === idx ? 'bg-white/10 border-l-4 border-primary' : 'hover:bg-white/5 border-l-4 border-transparent'}`}
                             >
                                 <div className="w-16 aspect-video bg-black rounded overflow-hidden mr-3 shrink-0 relative">
-                                    {/* Thumbnail placeholder */}
+                                    {}
                                     {ep.chapterImg ? <img src={ep.chapterImg} className="w-full h-full object-cover" /> : null}
                                     {currentChapterIndex === idx && <div className="absolute inset-0 bg-black/60 flex items-center justify-center"><div className="w-2 h-2 bg-primary rounded-full animate-pulse" /></div>}
                                 </div>

@@ -26,7 +26,7 @@ func NewClient() *Client {
 	}
 }
 
-// Get performs a GET request with retry logic
+
 func (c *Client) Get(url string, headers map[string]string) ([]byte, error) {
 	req := fasthttp.AcquireRequest()
 	resp := fasthttp.AcquireResponse()
@@ -35,7 +35,7 @@ func (c *Client) Get(url string, headers map[string]string) ([]byte, error) {
 
 	req.SetRequestURI(url)
 	req.Header.SetMethod(fasthttp.MethodGet)
-	
+
 	for k, v := range headers {
 		req.Header.Set(k, v)
 	}
@@ -43,7 +43,7 @@ func (c *Client) Get(url string, headers map[string]string) ([]byte, error) {
 	var err error
 	for i := 0; i < MaxRetries; i++ {
 		if i > 0 {
-			// Exponential backoff or simple delay
+
 			time.Sleep(time.Duration(i*2) * time.Second)
 			fmt.Printf("Retrying request to %s (Attempt %d/%d)\n", url, i+1, MaxRetries)
 		}
@@ -52,7 +52,7 @@ func (c *Client) Get(url string, headers map[string]string) ([]byte, error) {
 		if err == nil && resp.StatusCode() == fasthttp.StatusOK {
 			return resp.Body(), nil
 		}
-		
+
 		if err != nil {
 			fmt.Printf("Request failed: %v\n", err)
 		} else {

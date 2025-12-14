@@ -20,7 +20,7 @@ func NewDramaHandler(c *httpclient.Client) *DramaHandler {
 	return &DramaHandler{client: c}
 }
 
-// Data Structures for JSON Unmarshaling
+
 type DramaBasic struct {
 	BookID       string   `json:"bookId"`
 	BookName     string   `json:"bookName"`
@@ -28,7 +28,7 @@ type DramaBasic struct {
 	CoverWap     string   `json:"coverWap"`
 	Introduction string   `json:"introduction"`
 	Tags         []string `json:"tags"`
-	TagNames     []string `json:"tagNames"` // Search returns tagNames
+	TagNames     []string `json:"tagNames"`
 	Protagonist  string   `json:"protagonist"`
 }
 
@@ -56,7 +56,7 @@ func (h *DramaHandler) GetDetail(c *gin.Context) {
 		return
 	}
 
-	// 1. Concurrent Fetch from Trending, New, ForYou
+
 	var wg sync.WaitGroup
 	var trendingList, newList []DramaBasic
 	var forYouList []ForYouItem
@@ -69,10 +69,10 @@ func (h *DramaHandler) GetDetail(c *gin.Context) {
 
 	wg.Wait()
 
-	// 2. Linear Search for ID
+
 	var foundDrama *DramaBasic
 
-	// Check Trending
+
 	if errTrend == nil {
 		for _, d := range trendingList {
 			if d.BookID == bookID {
@@ -82,7 +82,7 @@ func (h *DramaHandler) GetDetail(c *gin.Context) {
 		}
 	}
 
-	// Check New
+
 	if foundDrama == nil && errNew == nil {
 		for _, d := range newList {
 			if d.BookID == bookID {
@@ -92,13 +92,13 @@ func (h *DramaHandler) GetDetail(c *gin.Context) {
 		}
 	}
 
-	// Check For You (This usually lacks intro, but gives us the Name)
+
 	if foundDrama == nil && errForYou == nil {
 		for _, item := range forYouList {
 			for _, d := range item.TagCardVo.TagBooks {
 				if d.BookID == bookID {
-					// We iterate this to find the match
-					// Create a copy to avoid pointer issues with loop var
+
+
 					val := d
 					foundDrama = &val
 					break
@@ -115,11 +115,11 @@ func (h *DramaHandler) GetDetail(c *gin.Context) {
 		return
 	}
 
-	// 3. Improve Data (If introduction is missing, SEARCH by Name)
+
 	if foundDrama.Introduction == "" && foundDrama.BookName != "" {
 		searchResult, err := h.searchByName(foundDrama.BookName)
 		if err == nil && searchResult != nil {
-			// Merge info
+
 			if searchResult.Introduction != "" {
 				foundDrama.Introduction = searchResult.Introduction
 			}
@@ -129,11 +129,11 @@ func (h *DramaHandler) GetDetail(c *gin.Context) {
 			if searchResult.Protagonist != "" {
 				foundDrama.Protagonist = searchResult.Protagonist
 			}
-			// Prefer search cover if available and better? No, keep original.
+
 		}
 	}
 
-	// Ensure Tags are populated (Search returns tagNames)
+
 	if len(foundDrama.Tags) == 0 && len(foundDrama.TagNames) > 0 {
 		foundDrama.Tags = foundDrama.TagNames
 	}

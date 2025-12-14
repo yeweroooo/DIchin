@@ -30,7 +30,7 @@ func (h *HomeHandler) GetNew(c *gin.Context) {
 }
 
 func (h *HomeHandler) proxyRequest(c *gin.Context, url string) {
-	// Standard headers mimicking a browser to avoid potential blocking
+
 	headers := map[string]string{
 		"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:146.0) Gecko/20100101 Firefox/146.0",
 		"Accept":     "application/json",
@@ -43,6 +43,6 @@ func (h *HomeHandler) proxyRequest(c *gin.Context, url string) {
 		return
 	}
 
-	// We simply proxy the JSON body (we assume upstream returns JSON)
+
 	c.Data(http.StatusOK, "application/json", body)
 }

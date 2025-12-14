@@ -42,7 +42,7 @@ const HeroSlider = ({ items }) => {
                         key={item.bookId}
                         className={`absolute inset-0 transition-all duration-700 ease-in-out ${index === currentIndex ? 'opacity-100 z-10 scale-100' : 'opacity-0 z-0 scale-95'}`}
                     >
-                        {/* Blurred Background Layer */}
+                        {}
                         <div
                             className="absolute inset-0 bg-cover bg-center blur-3xl opacity-50 transform scale-110"
                             style={{ backgroundImage: `url(${item.coverWap || item.cover})` }}
@@ -50,10 +50,10 @@ const HeroSlider = ({ items }) => {
                         <div className="absolute inset-0 bg-gradient-to-r from-[#0f0f0f] via-[#0f0f0f]/80 to-transparent" />
                         <div className="absolute inset-0 bg-gradient-to-t from-[#0f0f0f] via-[#0f0f0f]/50 to-transparent" />
 
-                        {/* Main Content Grid */}
+                        {}
                         <div className="absolute inset-0 flex flex-col items-center justify-end md:justify-start md:flex-row p-6 pb-20 md:p-12 gap-6 md:gap-12 text-center md:text-left">
 
-                            {/* Card-in-Card Thumbnail (The "inner" card) */}
+                            {}
                             <div className="relative w-28 sm:w-44 md:w-64 flex-shrink-0 animate-fadeIn delay-100 mb-4 md:mb-0">
                                 <div className="aspect-[2/3] rounded-xl overflow-hidden shadow-[0_0_20px_rgba(168,85,247,0.3)] border border-white/10 ring-1 ring-white/20 transform md:rotate-[-3deg] hover:rotate-0 transition-transform duration-500 bg-surface">
                                     <img
@@ -63,11 +63,11 @@ const HeroSlider = ({ items }) => {
                                         onError={(e) => { e.target.src = "https://via.placeholder.com/300x450?text=No+Cover" }}
                                     />
                                 </div>
-                                {/* Reflection/Glow effect behind */}
+                                {}
                                 <div className="absolute -inset-4 bg-primary/20 blur-2xl -z-10 rounded-full opacity-60"></div>
                             </div>
 
-                            {/* Text Content */}
+                            {}
                             <div className="flex-1 w-full md:w-auto z-10 flex flex-col items-center md:items-start justify-end md:justify-center h-auto md:h-full">
                                 <div className="flex flex-wrap items-center justify-center md:justify-start gap-2 md:gap-3 mb-3 md:mb-4 animate-fadeIn">
                                     <span className="bg-primary/90 text-white text-xs font-bold px-3 py-1 rounded-md uppercase tracking-wider shadow-lg shadow-primary/20">
@@ -110,7 +110,7 @@ const HeroSlider = ({ items }) => {
                 ))}
             </div>
 
-            {/* Pagination Dots */}
+            {}
             <div className="absolute bottom-12 right-12 z-20 flex space-x-3">
                 {items.slice(0, 5).map((_, idx) => (
                     <button
@@ -141,7 +141,7 @@ const Home = () => {
                 ]);
                 setTrending(trendingRes.data);
 
-                // Normalizing For You data
+
                 const normalizedForYou = Array.isArray(foryouRes.data)
                     ? foryouRes.data.flatMap(item => item?.tagCardVo?.tagBooks || [])
                     : [];
@@ -169,15 +169,15 @@ const Home = () => {
         <div className="min-h-screen bg-background text-white">
             <Navbar />
 
-            {/* Main Content Wrapper with Top Padding for Fixed Navbar */}
+            {}
             <div className="pt-24 pb-20">
-                {/* Hero Section */}
+                {}
                 <HeroSlider items={trending} />
 
-                {/* Content Sections */}
+                {}
                 <div className="max-w-6xl mx-auto px-4 md:px-8 space-y-12">
 
-                    {/* For You Section */}
+                    {}
                     {foryou.length > 0 && (
                         <section>
                             <div className="flex items-center mb-6">
@@ -193,12 +193,12 @@ const Home = () => {
                         </section>
                     )}
 
-                    {/* Trending Section - Vertical List or Grid */}
+                    {}
                     {trending.length > 0 && (
                         <Section title="Trending Now" dramas={trending} />
                     )}
 
-                    {/* New Releases Section */}
+                    {}
                     {newList.length > 0 && (
                         <Section title="New Releases" dramas={newList} />
                     )}

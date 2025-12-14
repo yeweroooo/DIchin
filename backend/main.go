@@ -19,14 +19,14 @@ import (
 )
 
 func main() {
-	// Load environment variables
+
 	if err := godotenv.Load(); err != nil {
 		log.Println("No .env file found, using default settings")
 	}
 
 	r := gin.Default()
 
-	// 1. Security Headers
+
 	r.Use(secure.New(secure.Config{
 		STSSeconds:            315360000,
 		STSIncludeSubdomains:  true,
@@ -39,8 +39,8 @@ func main() {
 		SSLProxyHeaders:       map[string]string{"X-Forwarded-Proto": "https"},
 	}))
 
-	// 2. Rate Limiting
-	// Define a limit rate to 20 requests per second.
+
+
 	rate, err := limiter.NewRateFromFormatted(getEnv("RATE_LIMIT", "20-S"))
 	if err != nil {
 		log.Fatal(err)
@@ -49,7 +49,7 @@ func main() {
 	instance := limiter.New(store, rate)
 	r.Use(mgin.NewMiddleware(instance))
 
-	// 3. CORS Setup
+
 	allowedOrigins := strings.Split(getEnv("ALLOWED_ORIGINS", "*"), ",")
 	r.Use(cors.New(cors.Config{
 		AllowOrigins:     allowedOrigins,
@@ -60,27 +60,27 @@ func main() {
 		MaxAge:           12 * time.Hour,
 	}))
 
-	// Init HTTP Client
+
 	client := httpclient.NewClient()
 
-	// Handlers
+
 	homeHandler := handlers.NewHomeHandler(client)
 	searchHandler := handlers.NewSearchHandler(client)
 	dramaHandler := handlers.NewDramaHandler(client)
 
-	// Routes
+
 	api := r.Group("/api")
 	{
-		// Home
+
 		api.GET("/home/trending", homeHandler.GetTrending)
 		api.GET("/home/foryou", homeHandler.GetForYou)
 		api.GET("/home/new", homeHandler.GetNew)
 
-		// Search
+
 		api.GET("/search/popular", searchHandler.GetPopularSearch)
 		api.GET("/search", searchHandler.Search)
 
-		// Drama Details & Stream
+
 		api.GET("/drama/episodes", dramaHandler.GetEpisodes)
 		api.GET("/drama/detail", dramaHandler.GetDetail)
 	}

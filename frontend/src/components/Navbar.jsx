@@ -30,12 +30,12 @@ const Navbar = () => {
     return (
         <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-black/95 border-b border-primary/50 shadow-lg py-3' : 'bg-gradient-to-b from-black to-transparent py-5'}`}>
             <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
-                {/* Logo */}
+                {}
                 <Link to="/" className="text-xl md:text-2xl font-black text-white tracking-wide">
                     DiChin
                 </Link>
 
-                {/* Search Bar */}
+                {}
                 <div className="flex items-center">
                     <form onSubmit={handleSearch} className="relative">
                         <input

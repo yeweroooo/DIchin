@@ -6,6 +6,7 @@ dist/
 
 # Go
 backend/bin/
+backend/server
 backend/vendor/
 backend/.env
 *.exe

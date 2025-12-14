@@ -3,12 +3,12 @@
 @layer theme {
   :root {
     --color-primary: #A855F7;
-    /* Purple */
+
     --color-primary-hover: #9333EA;
     --color-background: #000000;
-    /* True Black */
+
     --color-surface: #111111;
-    /* Very dark gray for cards */
+
     --color-text-secondary: #b3b3b3;
     --font-sans: "Inter", sans-serif;
   }
@@ -24,7 +24,7 @@
     scrollbar-width: none;
   }
 
-  /* Custom Scrollbar */
+
   .custom-scrollbar::-webkit-scrollbar {
     width: 6px;
   }
@@ -73,7 +73,7 @@
   }
 }
 
-/* Base styles are now handled automatically by Tailwind v4, but we can override/add to them */
+
 body {
   background-color: var(--color-background);
   color: white;
